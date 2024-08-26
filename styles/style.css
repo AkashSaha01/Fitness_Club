@@ -583,7 +583,26 @@ nav {
   .shape-text {
     font-family: "Alex Brush", cursive;
   }
-
+  .bmi-portion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #333637b7;
+  }
+  .bmi-left {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  .bmi-left table {
+    color: #fff;
+    width: 50%;
+    border-collapse: collapse;
+    padding-bottom: 20px;
+  }
   .get-body-Shape-left-third {
     margin-left: 25px;
     display: flex;
