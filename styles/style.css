@@ -603,6 +603,30 @@ nav {
     border-collapse: collapse;
     padding-bottom: 20px;
   }
+  .bmi-right {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .input-row {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 10px;
+    width: 48%;
+  }
+  .bmi-right form select {
+    width: 220px;
+  }
+  .input-row input,
+  .input-row select {
+    width: 100px;
+    color: #fff;
+  }
+
   .get-body-Shape-left-third {
     margin-left: 25px;
     display: flex;
